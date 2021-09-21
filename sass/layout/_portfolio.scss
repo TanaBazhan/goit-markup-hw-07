@@ -17,6 +17,7 @@
   .portfolio-hero-button:hover {
     color: var(--main-title-color);
     background-color: var(--accent-color);
+    border: none;
   }
   .portfolio-hero-button {
     font-family: Roboto;
@@ -31,6 +32,7 @@
   flex-direction: column;
   padding: 6px 22px;
   border-radius: 4px;
+  border: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .our-products-list {

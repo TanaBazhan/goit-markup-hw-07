@@ -66,11 +66,11 @@ section {
   align-items: center;
 }
 
-.header-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 40px;
 }
 
-.header-logo {
+.header__logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -82,7 +82,7 @@ section {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-logo:hover {
+.header__logo:hover {
   transform: scale(1.25);
 }
 
@@ -91,13 +91,13 @@ section {
   height: 16px;
 }
 
-.header-list {
+.header__list {
   display: flex;
   align-items: center;
 }
 
-.header-item
-.header-link {
+.header__item
+.header__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -106,12 +106,12 @@ section {
   position: relative;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header__link:hover,
+.header__link:focus {
   color: var(--accent-color);
 }
 
-.header-link {
+.header__link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -126,7 +126,7 @@ section {
   top: 51px;
 }
 
-.header-right {
+.header__right {
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -137,7 +137,7 @@ section {
   fill: currentColor;
 }
 
-.header-tel {
+.header__tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -149,7 +149,7 @@ section {
   justify-content: space-between;
 }
 
-.header-mail {
+.header__mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -169,14 +169,14 @@ section {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/fon-min.jpg);
 }
 
-.hero-container {
+.hero__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -188,7 +188,7 @@ section {
   height: 120px;
 }
 
-.hero-button {
+.hero__button {
   font-family: Roboto;
   font-style: normal;
   background-color: var(--accent-color);
@@ -868,6 +868,7 @@ span {
 .portfolio-hero-button:hover {
   color: var(--main-title-color);
   background-color: var(--accent-color);
+  border: none;
 }
 
 .portfolio-hero-button {
@@ -883,6 +884,7 @@ span {
   flex-direction: column;
   padding: 6px 22px;
   border-radius: 4px;
+  border: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
